@@ -1,0 +1,8 @@
+environment: "dev"
+
+crawler_parallelism: 2
+crawler_delay: "5s"
+crawler_randomDelay: "2s"
+
+# 1-error 2-suc 3-warn 4-info 5-debug
+log_level: "info"
