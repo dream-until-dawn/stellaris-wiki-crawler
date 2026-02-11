@@ -4,6 +4,7 @@ import (
 	"log"
 	"stellarisWikiCrawler/internal/crawler"
 	"stellarisWikiCrawler/internal/crawler/browser"
+	"stellarisWikiCrawler/internal/parser"
 
 	"github.com/playwright-community/playwright-go"
 )
@@ -17,7 +18,7 @@ func main() {
 	}
 
 	_, err = page.Goto(
-		"https://stellaris.paradoxwikis.com/Physics_research",
+		"https://stellaris.paradoxwikis.com/Society_research",
 		playwright.PageGotoOptions{
 			WaitUntil: playwright.WaitUntilStateNetworkidle,
 		},
@@ -26,13 +27,14 @@ func main() {
 		panic(err)
 	}
 
-	html, err := page.Content()
+	result, err := parser.ParseH2PTable(page)
 	if err != nil {
 		panic(err)
 	}
 
-	log.Println("HTML length:", len(html))
-
+	log.Printf("result: %d", len(result))
+	c := make(chan struct{})
+	<-c
 }
 
 func main_1() {
@@ -41,7 +43,7 @@ func main_1() {
 	// 科技介绍
 	// c.Collector.Visit("https://stellaris.paradoxwikis.com/Technology")
 	// 物理学
-	c.Collector.Visit("https://stellaris.paradoxwikis.com/api.php?action=query&titles=Physics_research&prop=revisions&rvslots=*&rvprop=content&format=json")
+	c.Collector.Visit("https://stellaris.paradoxwikis.com/Physics_research")
 	// 社会学
 	// c.Collector.Visit("https://stellaris.paradoxwikis.com/Society_research")
 	// 工程学
