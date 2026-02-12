@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"stellarisWikiCrawler/internal/crawler"
 	"stellarisWikiCrawler/internal/crawler/browser"
 	"stellarisWikiCrawler/internal/parser"
 
@@ -17,37 +16,30 @@ func main() {
 		panic(err)
 	}
 
-	_, err = page.Goto(
+	targetUrl := []string{
+		"https://stellaris.paradoxwikis.com/Physics_research",
 		"https://stellaris.paradoxwikis.com/Society_research",
-		playwright.PageGotoOptions{
-			WaitUntil: playwright.WaitUntilStateNetworkidle,
-		},
-	)
-	if err != nil {
-		panic(err)
+		"https://stellaris.paradoxwikis.com/Engineering_research",
+	}
+	for i, n := 0, len(targetUrl); i < n; i++ { // 避免多次调用 length 函数。
+		_, err = page.Goto(
+			targetUrl[i],
+			playwright.PageGotoOptions{
+				WaitUntil: playwright.WaitUntilStateNetworkidle,
+			},
+		)
+		if err != nil {
+			panic(err)
+		}
+
+		result, err := parser.ParseH2PTable(page)
+		if err != nil {
+			panic(err)
+		}
+
+		log.Printf("url %s result: %d", targetUrl[i], len(result))
 	}
 
-	result, err := parser.ParseH2PTable(page)
-	if err != nil {
-		panic(err)
-	}
-
-	log.Printf("result: %d", len(result))
 	c := make(chan struct{})
 	<-c
-}
-
-func main_1() {
-	c := crawler.NewCollector()
-
-	// 科技介绍
-	// c.Collector.Visit("https://stellaris.paradoxwikis.com/Technology")
-	// 物理学
-	c.Collector.Visit("https://stellaris.paradoxwikis.com/Physics_research")
-	// 社会学
-	// c.Collector.Visit("https://stellaris.paradoxwikis.com/Society_research")
-	// 工程学
-	// c.Collector.Visit("https://stellaris.paradoxwikis.com/Engineering_research")
-
-	c.Collector.Wait()
 }

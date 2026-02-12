@@ -1,62 +1,100 @@
 () => {
-  const h2List = Array.from(document.querySelectorAll("h2"));
-  if (h2List.length === 0) {
-    return;
-  }
   // 提取 h2 h3
   const extractH2H3 = (h) => {
     return h.querySelector(".mw-headline")?.innerText || "";
   };
-  // 提取 p 纯文本
-  const extractPureP = (p) => {
-    return p.innerText.trim();
-  };
-  // 提取 p
-  const extractP = (p) => {
-    let output = "";
-    function walk(node) {
-      if (node.nodeType === Node.TEXT_NODE) {
-        output += node.textContent;
-      } else if (node.nodeType === Node.ELEMENT_NODE) {
-        if (node.tagName === "IMG") {
-          const src = node.getAttribute("src") || "";
-          output += "[IMG:" + src + "]";
-        }
-        // 递归子节点
-        node.childNodes.forEach((child) => walk(child));
+  // 提取目标节点的内容->输出富文本
+  const extractRichText = (node) => {
+    const walk = (current) => {
+      if (!current) return "";
+      // 1️⃣ 文本节点
+      if (current.nodeType === Node.TEXT_NODE) {
+        return current.nodeValue || "";
       }
-    }
-    p.childNodes.forEach((child) => walk(child));
-    return output;
+      // 2️⃣ 元素节点
+      if (current.nodeType === Node.ELEMENT_NODE) {
+        // br
+        if (current.tagName === "BR") {
+          return "\n";
+        }
+        // 块级元素
+        if (["P", "DIV"].includes(current.tagName)) {
+          let result = "";
+          current.childNodes.forEach((child) => {
+            result += walk(child);
+          });
+          return result + "\n";
+        }
+        // 遇到 IMG
+        if (current.tagName === "IMG") {
+          const src = current.getAttribute("src") || "";
+          return `[IMG:${src}]`;
+        }
+        // 其他元素
+        let result = "";
+        // 深度优先遍历子节点（保证顺序）
+        current.childNodes.forEach((child) => {
+          result += walk(child);
+        });
+        return result;
+      }
+      return "";
+    };
+    const output = walk(node);
+    const isVaild = !/^[\n\t]+$/g.test(output);
+    return isVaild ? output : "";
   };
   // 提取表格值 - 适用不同列不同处理
-  const extractTableValue = (cell, index) => {
-    console.log(index, "extractTableValue", cell);
-    switch (index) {
-      case 0:
+  const extractTableValue = (cell, colName) => {
+    // console.log(colName, cell);
+    switch (colName) {
+      case "Icon": // 图标
         const img = cell.querySelector("img");
         return `[IMG:${img?.getAttribute("src") || "err"}]`;
-      case 1:
+      case "Technology": // 科技名称
         const b = cell.querySelector("b");
         const div = cell.querySelector("div .hidem");
         return {
           name: b?.innerText.trim() || "err",
           description: div?.innerText.trim() || "err",
         };
-      case 2:
-      case 3:
+      case "Cost": // 成本
+      case "Tier": // 等级
         return cell.innerText.trim() || "0";
-      case 4:
+      case "Effects / unlocks": // 效果
+      case "Prerequisites": // 前置需求
+      case "Empire": // 帝国
+      case "DLC": // dlc
         const lis = cell.querySelectorAll("li");
         if (lis.length === 0) {
-          // a - 仅有一个效果
-          const img = cell.querySelector("img");
-          if (!img) return [];
-          return [`[IMG:${img?.getAttribute("src") || "err"}] ${cell.innerText.trim()}`];
+          // 没有使用ul - 仅有一个
+          const text = extractRichText(cell).trim();
+          return text ? [text] : [];
         } else {
-          // ul -多个效果
+          // 有多个
+          return Array.from(lis)
+            .map((li) => extractRichText(li).trim())
+            .filter(Boolean);
         }
-        return "";
+      case "Draw weight": // 权重
+        // 提取出li
+        const weightLis = cell.querySelectorAll("li");
+        // 拿到无展开情况的复制元素
+        const copyEl = cell.cloneNode(true);
+        copyEl.querySelectorAll(".mw-collapsible").forEach((el) => el.remove());
+        const text = copyEl.innerText.trim();
+
+        if (weightLis.length === 0) {
+          // 没有使用ul - 仅有一个
+          return text ? [text] : [];
+        } else {
+          // 有多个效果
+          return (text ? [text] : []).concat(
+            Array.from(weightLis)
+              .map((li) => extractRichText(li).trim())
+              .filter(Boolean)
+          );
+        }
       default:
         return cell.innerText.trim();
     }
@@ -76,21 +114,20 @@
     // 表格体
     const tbody = table.querySelector("tbody");
     let bodys = [];
-    if (thead) {
+    if (tbody) {
       const rows = Array.from(tbody.querySelectorAll("tr"));
       bodys = rows
-        .map((row, index) => {
-          const cells = Array.from(row.querySelectorAll("td"));
-          if (index === 0) {
-            // 如果第一行 第一个元素全空,可能就是第一行是表格头
-            if (cells[0].innerHtml === "") {
-              headers = cells.map((td) => {
-                const text = td.innerText.trim();
-                return text === "" ? "Icon" : text;
-              });
-              return null;
-            }
+        .map((row) => {
+          const ths = Array.from(row.querySelectorAll("th"));
+          if (ths.length !== 0) {
+            headers = Array.from(ths).map((th) => {
+              const text = th.innerText.trim();
+              return text === "" ? "Icon" : text;
+            });
+            return null; // 跳过表头
           }
+
+          const cells = Array.from(row.querySelectorAll("td"));
           let obj = {};
           cells.forEach((cell, index) => {
             let key = "";
@@ -99,7 +136,7 @@
             } else {
               key = "col_" + index;
             }
-            obj[key] = extractTableValue(cell, index);
+            obj[key] = extractTableValue(cell, headers[index] || "unknown");
           });
           return obj;
         })
@@ -108,43 +145,46 @@
 
     return bodys;
   };
-
+  // -----------------------------------------------------------------------------------------------
   // 开始执行
-  let result = [];
-  for (const h2 of h2List) {
-    // 主要科技内容
-    // console.log("(标题)->h2", h2);
-    if (h2.nextElementSibling?.tagName.toLowerCase() !== "p") continue;
-    const p = h2.nextElementSibling;
-    // console.log("(介绍内容)->h2 后面紧跟的是 p 标签", p);
-    if (p.nextElementSibling?.tagName.toLowerCase() !== "table") continue;
-    const table = p.nextElementSibling;
-    // console.log("(科技列表)->p 后面紧跟的是 table 标签", table);
-    result.push({
-      title: extractH2H3(h2),
-      description: extractPureP(p),
-      descriptionRich: extractP(p),
-      list: extractTable(table),
-      additional: {},
-    });
-    break;
-    // 可能的额外科技
-    if (table.nextElementSibling?.tagName.toLowerCase() !== "h3") continue;
-    const h3 = table.nextElementSibling;
-    // console.log("(额外科技)->table 后面紧跟的是 h3 标签-还需继续检查是否存在 table", h3);
-    if (h3.nextElementSibling?.tagName.toLowerCase() !== "p") continue;
-    const extraP = h3.nextElementSibling;
-    // console.log("(额外科技列表)->h3 后面紧跟的是 p 标签-继续处理数据", extraP);
-    if (extraP.nextElementSibling?.tagName.toLowerCase() !== "table") continue;
-    const extraTable = extraP.nextElementSibling;
-    // console.log("(额外科技列表)->h3 后面紧跟的是 table 标签-继续处理数据", extraTable);
-    result[result.length - 1].additional = {
-      title: extractH2H3(h3),
-      description: extractPureP(extraP),
-      descriptionRich: extractP(extraP),
-      list: extractTable(extraTable),
-    };
+  const tableList = Array.from(document.querySelectorAll("table"));
+  if (tableList.length === 0) {
+    return;
   }
+  let dataResult = [];
+  let result = [];
+  for (const table of tableList) {
+    const p = table.previousElementSibling;
+    if (p?.tagName?.toLowerCase() !== "p") continue;
+    let data = {
+      title: null,
+      description: [p],
+      table: table,
+    };
+    let previous = p?.previousElementSibling;
+    let previousTagName = previous?.tagName?.toLowerCase() || "null";
+    if (previousTagName === "null") continue; // 没有上一个元素直接跳过本次
+
+    while (previousTagName !== "null" && previousTagName !== "h2" && previousTagName !== "h3") {
+      data.description.unshift(previous);
+      previous = previous?.previousElementSibling;
+      previousTagName = previous?.tagName?.toLowerCase() || "null";
+    }
+    data.title = previous;
+    dataResult.push(data);
+    // 开始处理data
+    result.push({
+      title: extractH2H3(previous),
+      description: data.description.map((node) => extractRichText(node)),
+      table: extractTable(table),
+    });
+  }
+  console.log("dataResult", dataResult);
   console.log("result", result);
+  let count = 0;
+  for (const item of result) {
+    count += item?.table?.length || 0;
+  }
+  console.log("result count", count);
   return result;
 };
