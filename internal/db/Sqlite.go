@@ -93,8 +93,8 @@ func (s *SQLiteDB) createTechnologyDependencyTable() error {
 			parent_name TEXT NOT NULL,
 			child_name  TEXT NOT NULL,
 			PRIMARY KEY (parent_name, child_name),
-			FOREIGN KEY (parent_name) REFERENCES technology(name),
-			FOREIGN KEY (child_name) REFERENCES technology(name)
+			FOREIGN KEY (parent_name) REFERENCES technology_item(name),
+			FOREIGN KEY (child_name) REFERENCES technology_item(name)
 		) WITHOUT ROWID;
 	`
 	_, err := s.DB.Exec(createTableSQL)
@@ -107,8 +107,8 @@ func (s *SQLiteDB) createTechnologyClosureTable() error {
 			descendant_name TEXT NOT NULL,
 			depth           INTEGER NOT NULL,
 			PRIMARY KEY (ancestor_name, descendant_name),
-			FOREIGN KEY (ancestor_name) REFERENCES technology(name),
-			FOREIGN KEY (descendant_name) REFERENCES technology(name)
+			FOREIGN KEY (ancestor_name) REFERENCES technology_item(name),
+			FOREIGN KEY (descendant_name) REFERENCES technology_item(name)
 		) WITHOUT ROWID;
 	`
 	_, err := s.DB.Exec(createTableSQL)
