@@ -9,6 +9,9 @@ import (
 	"github.com/playwright-community/playwright-go"
 )
 
+// false - 为调试时可视化浏览器  (true- 无头浏览器)
+var headless = true
+
 type BrowserFetcher struct {
 	pw      *playwright.Playwright
 	browser playwright.Browser
@@ -42,7 +45,7 @@ func newBrowserFetcher() *BrowserFetcher {
 
 	// 启动 Chromium（默认就能过大多数 JS Challenge）
 	browser, err := pw.Chromium.Launch(playwright.BrowserTypeLaunchOptions{
-		Headless: playwright.Bool(true), // 调试时可改成 false
+		Headless: playwright.Bool(headless), // 调试时可改成 false
 		Devtools: playwright.Bool(true),
 		Args: []string{
 			"--disable-blink-features=AutomationControlled",

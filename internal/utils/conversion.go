@@ -2,7 +2,9 @@ package utils
 
 import (
 	"reflect"
+	"regexp"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -107,4 +109,15 @@ func flatten(val reflect.Value, prefix string, out map[string]float64) {
 	default:
 		return
 	}
+}
+
+// 去除 [xxx]
+var re = regexp.MustCompile(`\[[^\]]*\]`)
+
+// 去除 [xxx]和首尾空格
+func CleanTechName(s string) string {
+	// 1️⃣ 删除 [xxx]
+	s = re.ReplaceAllString(s, "")
+	// 2️⃣ 去除首尾空格
+	return strings.TrimSpace(s)
 }

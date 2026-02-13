@@ -36,8 +36,12 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		amount := 0
+		for _, t := range result {
+			amount += len(t.Table)
+		}
 
-		log.Printf("url %s 结果对象长度: %d", targetUrl[i], len(result))
+		log.Printf("url %s 结果对象长度: %d ,数目: %d", targetUrl[i], len(result), amount)
 	}
 
 	// c := make(chan struct{})
