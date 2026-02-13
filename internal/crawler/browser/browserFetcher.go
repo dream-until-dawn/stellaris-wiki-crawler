@@ -42,7 +42,7 @@ func newBrowserFetcher() *BrowserFetcher {
 
 	// 启动 Chromium（默认就能过大多数 JS Challenge）
 	browser, err := pw.Chromium.Launch(playwright.BrowserTypeLaunchOptions{
-		Headless: playwright.Bool(false), // 调试时可改成 false
+		Headless: playwright.Bool(true), // 调试时可改成 false
 		Devtools: playwright.Bool(true),
 		Args: []string{
 			"--disable-blink-features=AutomationControlled",
