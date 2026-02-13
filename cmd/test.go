@@ -18,8 +18,8 @@ func main() {
 
 	targetUrl := []string{
 		"https://stellaris.paradoxwikis.com/Physics_research",
-		// "https://stellaris.paradoxwikis.com/Society_research",
-		// "https://stellaris.paradoxwikis.com/Engineering_research",
+		"https://stellaris.paradoxwikis.com/Society_research",
+		"https://stellaris.paradoxwikis.com/Engineering_research",
 	}
 	for i, n := 0, len(targetUrl); i < n; i++ {
 		_, err = page.Goto(
