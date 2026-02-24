@@ -1,0 +1,1887 @@
+[
+  {
+    "name": "Advanced Controlled Mutations",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/6/69/Tech_controlled_mutations_2.png]",
+    "description": "We can go further. Advanced manipulation of Space Fauna genetics allows for integrating a wider variety of specialized components.",
+    "tier": "4",
+    "cost": "20000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/dd/Unknown.png/24px-Unknown.png] +3 Available Mutation Slots",
+      "[IMG:/images/thumb/6/6a/Damage.png/24px-Damage.png] +15% Reanimated Creature Damage",
+      "[IMG:/images/thumb/3/3c/Mod_ship_fire_rate_mult.png/24px-Mod_ship_fire_rate_mult.png] +15% Reanimated Creature Fire Rate"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/9/90/Tech_controlled_mutations.png/24px-Tech_controlled_mutations.png] Controlled Mutations"
+    ],
+    "draw weight": [
+      "Base: 40"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/3/36/Grand_Archive.png/26px-Grand_Archive.png]"
+    ],
+    "source": "Advanced Controlled Mutations",
+    "target": "Restorative Enzymes"
+  },
+  {
+    "name": "Advanced Controlled Mutations",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/6/69/Tech_controlled_mutations_2.png]",
+    "description": "We can go further. Advanced manipulation of Space Fauna genetics allows for integrating a wider variety of specialized components.",
+    "tier": "4",
+    "cost": "20000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/dd/Unknown.png/24px-Unknown.png] +3 Available Mutation Slots",
+      "[IMG:/images/thumb/6/6a/Damage.png/24px-Damage.png] +15% Reanimated Creature Damage",
+      "[IMG:/images/thumb/3/3c/Mod_ship_fire_rate_mult.png/24px-Mod_ship_fire_rate_mult.png] +15% Reanimated Creature Fire Rate"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/9/90/Tech_controlled_mutations.png/24px-Tech_controlled_mutations.png] Controlled Mutations"
+    ],
+    "draw weight": [
+      "Base: 40"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/3/36/Grand_Archive.png/26px-Grand_Archive.png]"
+    ],
+    "source": "Advanced Controlled Mutations",
+    "target": "Starborne Biology"
+  },
+  {
+    "name": "Bio-Reactor",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/a/a7/Tech_bio_reactor.png]",
+    "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/62/Building_bio_reactor.png/24px-Building_bio_reactor.png] Bio-Reactor"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/c/cb/Tech_industrial_farming.png/24px-Tech_industrial_farming.png] Industrial Agriculture"
+    ],
+    "draw weight": [
+      "Base: 100",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×20 If one of the following is true:\n[IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid founder species\n[IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png][IMG:/images/thumb/2/2e/Trait_mechanical.png/24px-Trait_mechanical.png] Mechanical founder species\n[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic",
+      "[IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid founder species",
+      "[IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png][IMG:/images/thumb/2/2e/Trait_mechanical.png/24px-Trait_mechanical.png] Mechanical founder species",
+      "[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Bio-Reactor",
+    "target": "Advanced Bio-Reactor"
+  },
+  {
+    "name": "Cloning",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/b/b8/Tech_cloning.png]",
+    "description": "Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/bf/Building_clone_vats.png/24px-Building_clone_vats.png] Clone Vats"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 112.5",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Cloning",
+    "target": "Gene Banks"
+  },
+  {
+    "name": "Controlled Mutations",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/9/90/Tech_controlled_mutations.png]",
+    "description": "We can increase the effectiveness of our Space Fauna Ships by modifying their genomes, allowing us to integrate artificial technology into their biomass.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/dd/Unknown.png/24px-Unknown.png] +3 Available Mutation Slots",
+      "[IMG:/images/thumb/6/6a/Damage.png/24px-Damage.png] +15% Reanimated Creature Damage",
+      "[IMG:/images/thumb/3/3c/Mod_ship_fire_rate_mult.png/24px-Mod_ship_fire_rate_mult.png] +15% Reanimated Creature Fire Rate"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/78/Menu_icon_species.png/24px-Menu_icon_species.png] Any genetic material"
+    ],
+    "draw weight": [
+      "Base: 150"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/3/36/Grand_Archive.png/26px-Grand_Archive.png]"
+    ],
+    "source": "Controlled Mutations",
+    "target": "Advanced Controlled Mutations"
+  },
+  {
+    "name": "Controlled Mutations",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/9/90/Tech_controlled_mutations.png]",
+    "description": "We can increase the effectiveness of our Space Fauna Ships by modifying their genomes, allowing us to integrate artificial technology into their biomass.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/dd/Unknown.png/24px-Unknown.png] +3 Available Mutation Slots",
+      "[IMG:/images/thumb/6/6a/Damage.png/24px-Damage.png] +15% Reanimated Creature Damage",
+      "[IMG:/images/thumb/3/3c/Mod_ship_fire_rate_mult.png/24px-Mod_ship_fire_rate_mult.png] +15% Reanimated Creature Fire Rate"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/78/Menu_icon_species.png/24px-Menu_icon_species.png] Any genetic material"
+    ],
+    "draw weight": [
+      "Base: 150"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/3/36/Grand_Archive.png/26px-Grand_Archive.png]"
+    ],
+    "source": "Controlled Mutations",
+    "target": "Thruster Bio-Integration"
+  },
+  {
+    "name": "Eco Simulation",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4f/Tech_eco_simulation.png]",
+    "description": "Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/c/cb/Tech_industrial_farming.png/24px-Tech_industrial_farming.png] Industrial Agriculture"
+    ],
+    "draw weight": [
+      "Base: 100",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Eco Simulation",
+    "target": "Food Processing"
+  },
+  {
+    "name": "Eco Simulation",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4f/Tech_eco_simulation.png]",
+    "description": "Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/c/cb/Tech_industrial_farming.png/24px-Tech_industrial_farming.png] Industrial Agriculture"
+    ],
+    "draw weight": [
+      "Base: 100",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Eco Simulation",
+    "target": "Gene Crops"
+  },
+  {
+    "name": "Epigenetic Triggers",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/41/Tech_epigenetic_triggers.png]",
+    "description": "Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/4/47/Feature.png] Uplifting",
+      "[IMG:/images/4/47/Feature.png] Genetic modification can remove pre-sapient traits"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Encountered a pre-sapient species",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/ab/Civic_fanatic_purifiers.png/24px-Civic_fanatic_purifiers.png] Fanatic Purifiers"
+    ],
+    "draw weight": [
+      "Base: 75",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/a/a8/Fanatic_xenophile.png/24px-Fanatic_xenophile.png] Fanatic Xenophile",
+      "×1.25 [IMG:/images/thumb/b/b0/Xenophile.png/24px-Xenophile.png] Xenophile",
+      "×0.75 [IMG:/images/thumb/e/ed/Xenophobe.png/24px-Xenophobe.png] Xenophobe",
+      "×0.5 [IMG:/images/thumb/8/8b/Fanatic_xenophobe.png/24px-Fanatic_xenophobe.png] Fanatic Xenophobe"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Epigenetic Triggers",
+    "target": "Morphogenetic Field Mastery"
+  },
+  {
+    "name": "Food Processing",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/9/9c/Tech_food_processing_1.png]",
+    "description": "Improved food processing techniques will lead to better preservation methods and less spoilage.",
+    "tier": "1",
+    "cost": "2500",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/1/13/Building_food_processing_facility.png/24px-Building_food_processing_facility.png] Food Processing Facilities",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Farming Subsidies",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] Agricultural Focus"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4f/Tech_eco_simulation.png/24px-Tech_eco_simulation.png] Eco Simulation"
+    ],
+    "draw weight": [
+      "Base: 95",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic",
+      "×1.5 [IMG:/images/thumb/1/1f/Civic_agrarian_idyll.png/24px-Civic_agrarian_idyll.png] Agrarian Idyll or [IMG:/images/thumb/5/5e/Civic_anglers.png/24px-Civic_anglers.png] Anglers",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Food Processing",
+    "target": "Advanced Food Processing"
+  },
+  {
+    "name": "Gene Crops",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/b/b1/Tech_gene_crops.png]",
+    "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
+    "tier": "2",
+    "cost": "4000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Nutritional Plenitude",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Expanded Breeding Program"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4f/Tech_eco_simulation.png/24px-Tech_eco_simulation.png] Eco Simulation"
+    ],
+    "draw weight": [
+      "Base: 85",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Gene Crops",
+    "target": "Nano-Vitality Crops"
+  },
+  {
+    "name": "Gene Crops",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/b/b1/Tech_gene_crops.png]",
+    "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
+    "tier": "2",
+    "cost": "4000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Nutritional Plenitude",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Expanded Breeding Program"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4f/Tech_eco_simulation.png/24px-Tech_eco_simulation.png] Eco Simulation"
+    ],
+    "draw weight": [
+      "Base: 85",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Gene Crops",
+    "target": "Transgenic Crops"
+  },
+  {
+    "name": "Gene Tailoring",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4c/Tech_gene_tailoring.png]",
+    "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
+    "tier": "3",
+    "cost": "8000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/7/78/Menu_icon_species.png/24px-Menu_icon_species.png] +2 Gene modification points",
+      "[IMG:/images/4/47/Feature.png] Genetic Modification"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 130",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 [IMG:/images/thumb/3/3c/Origins_necrophage.png/24px-Origins_necrophage.png] Necrophage origin",
+      "×1.25 [IMG:/images/thumb/b/b0/Xenophile.png/24px-Xenophile.png][IMG:/images/thumb/a/a8/Fanatic_xenophile.png/24px-Fanatic_xenophile.png] Xenophile"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Gene Tailoring",
+    "target": "Gene Seed Purification"
+  },
+  {
+    "name": "Gene Tailoring",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4c/Tech_gene_tailoring.png]",
+    "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
+    "tier": "3",
+    "cost": "8000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/7/78/Menu_icon_species.png/24px-Menu_icon_species.png] +2 Gene modification points",
+      "[IMG:/images/4/47/Feature.png] Genetic Modification"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 130",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 [IMG:/images/thumb/3/3c/Origins_necrophage.png/24px-Origins_necrophage.png] Necrophage origin",
+      "×1.25 [IMG:/images/thumb/b/b0/Xenophile.png/24px-Xenophile.png][IMG:/images/thumb/a/a8/Fanatic_xenophile.png/24px-Fanatic_xenophile.png] Xenophile"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Gene Tailoring",
+    "target": "Glandular Acclimation"
+  },
+  {
+    "name": "Gene Tailoring",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4c/Tech_gene_tailoring.png]",
+    "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
+    "tier": "3",
+    "cost": "8000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/7/78/Menu_icon_species.png/24px-Menu_icon_species.png] +2 Gene modification points",
+      "[IMG:/images/4/47/Feature.png] Genetic Modification"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 130",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 [IMG:/images/thumb/3/3c/Origins_necrophage.png/24px-Origins_necrophage.png] Necrophage origin",
+      "×1.25 [IMG:/images/thumb/b/b0/Xenophile.png/24px-Xenophile.png][IMG:/images/thumb/a/a8/Fanatic_xenophile.png/24px-Fanatic_xenophile.png] Xenophile"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Gene Tailoring",
+    "target": "Targeted Gene Expressions"
+  },
+  {
+    "name": "Genetic Healthcare",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/75/Tech_frontier_health.png]",
+    "description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
+    "tier": "1",
+    "cost": "2500",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/b0/Building_medical_2.png/24px-Building_medical_2.png] Gene Clinics"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/e/e4/Tech_colonization_1.png/24px-Tech_colonization_1.png] New Worlds Protocol",
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping"
+    ],
+    "draw weight": [
+      "Base: 190",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/f/f0/Origins_payback.png/24px-Origins_payback.png] Payback origin and researching Gene Clinics during Out of Warranty event",
+      "×1.25 adopted the [IMG:/images/thumb/f/ff/Tradition_icon_harmony.png/24px-Tradition_icon_harmony.png] Harmony tradition tree"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/2/24/Trait_individual.png/26px-Trait_individual.png]\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png]"
+    ],
+    "dlc": [],
+    "source": "Genetic Healthcare",
+    "target": "Cyto-Revitalization"
+  },
+  {
+    "name": "Genome Mapping",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/03/Tech_genome_mapping.png]",
+    "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/6d/Mod_pop_growth_speed.png/24px-Mod_pop_growth_speed.png] +10% Pop Growth Speed"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects"
+    ],
+    "draw weight": [
+      "Base: 150",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Cloning"
+  },
+  {
+    "name": "Genome Mapping",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/03/Tech_genome_mapping.png]",
+    "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/6d/Mod_pop_growth_speed.png/24px-Mod_pop_growth_speed.png] +10% Pop Growth Speed"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects"
+    ],
+    "draw weight": [
+      "Base: 150",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Epigenetic Triggers"
+  },
+  {
+    "name": "Genome Mapping",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/03/Tech_genome_mapping.png]",
+    "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/6d/Mod_pop_growth_speed.png/24px-Mod_pop_growth_speed.png] +10% Pop Growth Speed"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects"
+    ],
+    "draw weight": [
+      "Base: 150",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Gene Tailoring"
+  },
+  {
+    "name": "Genome Mapping",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/03/Tech_genome_mapping.png]",
+    "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/6d/Mod_pop_growth_speed.png/24px-Mod_pop_growth_speed.png] +10% Pop Growth Speed"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects"
+    ],
+    "draw weight": [
+      "Base: 150",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Genetic Healthcare"
+  },
+  {
+    "name": "Genome Mapping",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/03/Tech_genome_mapping.png]",
+    "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/6d/Mod_pop_growth_speed.png/24px-Mod_pop_growth_speed.png] +10% Pop Growth Speed"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects"
+    ],
+    "draw weight": [
+      "Base: 150",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Subdermal Stimulation"
+  },
+  {
+    "name": "Genome Mapping",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/03/Tech_genome_mapping.png]",
+    "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/6d/Mod_pop_growth_speed.png/24px-Mod_pop_growth_speed.png] +10% Pop Growth Speed"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects"
+    ],
+    "draw weight": [
+      "Base: 150",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Vitality Boosters"
+  },
+  {
+    "name": "Industrial Agriculture",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/c/cb/Tech_industrial_farming.png]",
+    "description": "Large-scale industrial farms growing nutrient-rich produce allows a civilization to grow its population manifold.",
+    "tier": "0",
+    "cost": "0",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/df/District_farming.png/24px-District_farming.png] Agriculture District"
+    ],
+    "prerequisites": [],
+    "draw weight": [],
+    "empire": [],
+    "dlc": [],
+    "source": "Industrial Agriculture",
+    "target": "Bio-Reactor"
+  },
+  {
+    "name": "Industrial Agriculture",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/c/cb/Tech_industrial_farming.png]",
+    "description": "Large-scale industrial farms growing nutrient-rich produce allows a civilization to grow its population manifold.",
+    "tier": "0",
+    "cost": "0",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/df/District_farming.png/24px-District_farming.png] Agriculture District"
+    ],
+    "prerequisites": [],
+    "draw weight": [],
+    "empire": [],
+    "dlc": [],
+    "source": "Industrial Agriculture",
+    "target": "Eco Simulation"
+  },
+  {
+    "name": "Molecular-Revitalization Institute",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/2/25/Tech_fe_clinic_1.png]",
+    "description": "Molecular-Revitalization Institutes delve deep into cellular intricacies to amplify the effectiveness of medical treatments, significantly improving the quality and longevity of the populations' health.",
+    "tier": "5",
+    "cost": "50000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/b2/Building_fe_clinic_1.png/24px-Building_fe_clinic_1.png] Molecular-Revitalization Institute"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/07/Ap_enigmatic_engineering.png/24px-Ap_enigmatic_engineering.png] Enigmatic Engineering\n[IMG:/images/thumb/6/6d/Ap_cosmogenesis.png/22px-Ap_cosmogenesis.png] Cosmogenesis level 4",
+      "[IMG:/images/thumb/0/07/Ap_enigmatic_engineering.png/24px-Ap_enigmatic_engineering.png] Enigmatic Engineering",
+      "[IMG:/images/thumb/6/6d/Ap_cosmogenesis.png/22px-Ap_cosmogenesis.png] Cosmogenesis level 4"
+    ],
+    "draw weight": [
+      "Base: 20",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy ascension perk",
+      "×2 Synaptic Lathe has 5000+ pops"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png]"
+    ],
+    "dlc": [
+      "[IMG:/images/thumb/1/13/Apocalypse.png/26px-Apocalypse.png]",
+      "[IMG:/images/thumb/c/c3/The_Machine_Age.png/26px-The_Machine_Age.png]"
+    ],
+    "source": "Molecular-Revitalization Institute",
+    "target": "Bioregeneration Institute"
+  },
+  {
+    "name": "Nano-Vitality Crops",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/1/14/Tech_nano_vitality_crops.png]",
+    "description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
+    "tier": "3",
+    "cost": "8000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/b/b1/Tech_gene_crops.png/24px-Tech_gene_crops.png] Gene Crops"
+    ],
+    "draw weight": [
+      "Base: 65",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Nano-Vitality Crops",
+    "target": "Nutrient Replication"
+  },
+  {
+    "name": "Neural Weaving",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/6/64/Tech_society_2.png]",
+    "description": "Through recursive axonal scaffolding and synaptic reticulation, we have developed methods for reorganizing the electrochemical topology of conscious matter. Neurons do not merely transmit - they entwine, organize, and remember. Now, they do so according to our design.",
+    "tier": "2",
+    "cost": "6000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/a/a8/Building_biolab_2.png/24px-Building_biolab_2.png] Neurogenetics Institute",
+      "[IMG:/images/thumb/5/57/Job_biologist.png/24px-Job_biologist.png] Biological Research Support"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/7b/Tech_society_1.png/24px-Tech_society_1.png] Xenobiology",
+      "[IMG:/images/thumb/6/64/Exotic_gases.png/24px-Exotic_gases.png] Access to Exotic Gases through tech or galactic market"
+    ],
+    "draw weight": [
+      "Base: 70",
+      "×16 20 years have passed",
+      "×8 15 years have passed",
+      "×4 10 years have passed",
+      "×2 5 years have passed",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Neural Weaving",
+    "target": "Biostructural Synthesis"
+  },
+  {
+    "name": "Nourishment Complex",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/2/2f/Tech_fe_nourishment_1.png]",
+    "description": "Replication technology swiftly conjures up novel flavors on command.",
+    "tier": "5",
+    "cost": "50000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/4/4e/Building_nourishment_complex.png/24px-Building_nourishment_complex.png] Nourishment Complex"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/07/Ap_enigmatic_engineering.png/24px-Ap_enigmatic_engineering.png] Enigmatic Engineering\n[IMG:/images/thumb/6/6d/Ap_cosmogenesis.png/22px-Ap_cosmogenesis.png] Cosmogenesis level 2",
+      "[IMG:/images/thumb/0/07/Ap_enigmatic_engineering.png/24px-Ap_enigmatic_engineering.png] Enigmatic Engineering",
+      "[IMG:/images/thumb/6/6d/Ap_cosmogenesis.png/22px-Ap_cosmogenesis.png] Cosmogenesis level 2"
+    ],
+    "draw weight": [
+      "Base: 20",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy ascension perk",
+      "×2 Synaptic Lathe has 5000+ pops"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/1/13/Apocalypse.png/26px-Apocalypse.png]",
+      "[IMG:/images/thumb/c/c3/The_Machine_Age.png/26px-The_Machine_Age.png]"
+    ],
+    "source": "Nourishment Complex",
+    "target": "Nourishment Center"
+  },
+  {
+    "name": "Selected Lineages",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/44/Tech_selected_lineages.png]",
+    "description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.",
+    "tier": "3",
+    "cost": "10000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/a/af/Menu_icon_policies.png/24px-Menu_icon_policies.png] Selected Lineages Leader Enhancement policy"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/79/Tech_vitality_boosters.png/24px-Tech_vitality_boosters.png] Vitality Boosters",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/aa/Fanatic_egalitarian.png/24px-Fanatic_egalitarian.png] Fanatic Egalitarian"
+    ],
+    "draw weight": [
+      "Base: 30",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/b/bf/Authoritarian.png/24px-Authoritarian.png][IMG:/images/thumb/5/59/Fanatic_authoritarian.png/24px-Fanatic_authoritarian.png] Authoritarian",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×0.25 [IMG:/images/thumb/6/6a/Egalitarian.png/24px-Egalitarian.png] Egalitarian"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Selected Lineages",
+    "target": "Capacity Boosters"
+  },
+  {
+    "name": "Subdermal Stimulation",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/71/Tech_subdermal_stimulation.png]",
+    "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/4/47/Feature.png] Chemical Bliss living standards"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/d/d3/Gestalt_consciousness.png/24px-Gestalt_consciousness.png] Gestalt Consciousness"
+    ],
+    "draw weight": [
+      "Base: 37.5",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.25 [IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/6/6a/Egalitarian.png/24px-Egalitarian.png][IMG:/images/thumb/a/aa/Fanatic_egalitarian.png/24px-Fanatic_egalitarian.png] Egalitarian"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Subdermal Stimulation",
+    "target": "Tracking Implants"
+  },
+  {
+    "name": "Vitality Boosters",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/79/Tech_vitality_boosters.png]",
+    "description": "Where the body fails, science intervenes.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/3/3e/Mod_leader_age.png/24px-Mod_leader_age.png] +10 Years Leader Lifespan"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 112.5",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Vitality Boosters",
+    "target": "Cell Revitalization"
+  },
+  {
+    "name": "Vitality Boosters",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/79/Tech_vitality_boosters.png]",
+    "description": "Where the body fails, science intervenes.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/3/3e/Mod_leader_age.png/24px-Mod_leader_age.png] +10 Years Leader Lifespan"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 112.5",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Vitality Boosters",
+    "target": "Selected Lineages"
+  },
+  {
+    "name": "Xenobiology",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/7b/Tech_society_1.png]",
+    "description": "The study of alien life has moved beyond mere cataloging. By examining the structures and survival strategies of organisms evolved under foreign stars, we open new avenues in medicine, adaptation, and design.",
+    "tier": "1",
+    "cost": "3000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/b9/Building_biolab_1.png/24px-Building_biolab_1.png] Xenobiological Lab"
+    ],
+    "prerequisites": [],
+    "draw weight": [
+      "Base: 90",
+      "×16 20 years have passed",
+      "×8 15 years have passed",
+      "×4 10 years have passed",
+      "×2 5 years have passed",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Xenobiology",
+    "target": "Neural Weaving"
+  },
+  {
+    "name": "Advanced Bio-Reactor",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/9/97/Tech_bio_reactor_2.png]",
+    "description": "A facility where organic matter is converted into energy at a highly efficient rate, improvements in waste collection allows harvesting of useful gaseous by-products.",
+    "tier": "2",
+    "cost": "4000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/b2/Building_bio_reactor_2.png/24px-Building_bio_reactor_2.png] Advanced Bio-Reactor"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/a/a7/Tech_bio_reactor.png/24px-Tech_bio_reactor.png] Bio-Reactor"
+    ],
+    "draw weight": [
+      "Base: 100",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×20 If one of the following is true:\n[IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid founder species\n[IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png][IMG:/images/thumb/2/2e/Trait_mechanical.png/24px-Trait_mechanical.png] Mechanical founder species\n[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic",
+      "[IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid founder species",
+      "[IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png][IMG:/images/thumb/2/2e/Trait_mechanical.png/24px-Trait_mechanical.png] Mechanical founder species",
+      "[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Bio-Reactor",
+    "target": "Advanced Bio-Reactor"
+  },
+  {
+    "name": "Gene Banks",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/f/f1/Tech_gene_banks.png]",
+    "description": "Gene Banks filter and curate available genomes for deployment in clones.",
+    "tier": "2",
+    "cost": "6000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/8/84/Army_clone.png/24px-Army_clone.png] Clone Army"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/b/b8/Tech_cloning.png/24px-Tech_cloning.png] Cloning",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 35",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Individualist machine empire and has no organic pops",
+      "×0.2 no council scientist with either:\n[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait\n[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/4/4d/Leader_trait_lightbulb_on.png/24px-Leader_trait_lightbulb_on.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Spark of Genius trait\n[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait",
+      "[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait",
+      "[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/4/4d/Leader_trait_lightbulb_on.png/24px-Leader_trait_lightbulb_on.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Spark of Genius trait",
+      "[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Cloning",
+    "target": "Gene Banks"
+  },
+  {
+    "name": "Advanced Controlled Mutations",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/6/69/Tech_controlled_mutations_2.png]",
+    "description": "We can go further. Advanced manipulation of Space Fauna genetics allows for integrating a wider variety of specialized components.",
+    "tier": "4",
+    "cost": "20000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/dd/Unknown.png/24px-Unknown.png] +3 Available Mutation Slots",
+      "[IMG:/images/thumb/6/6a/Damage.png/24px-Damage.png] +15% Reanimated Creature Damage",
+      "[IMG:/images/thumb/3/3c/Mod_ship_fire_rate_mult.png/24px-Mod_ship_fire_rate_mult.png] +15% Reanimated Creature Fire Rate"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/9/90/Tech_controlled_mutations.png/24px-Tech_controlled_mutations.png] Controlled Mutations"
+    ],
+    "draw weight": [
+      "Base: 40"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/3/36/Grand_Archive.png/26px-Grand_Archive.png]"
+    ],
+    "source": "Controlled Mutations",
+    "target": "Advanced Controlled Mutations"
+  },
+  {
+    "name": "Food Processing",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/9/9c/Tech_food_processing_1.png]",
+    "description": "Improved food processing techniques will lead to better preservation methods and less spoilage.",
+    "tier": "1",
+    "cost": "2500",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/1/13/Building_food_processing_facility.png/24px-Building_food_processing_facility.png] Food Processing Facilities",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Farming Subsidies",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] Agricultural Focus"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4f/Tech_eco_simulation.png/24px-Tech_eco_simulation.png] Eco Simulation"
+    ],
+    "draw weight": [
+      "Base: 95",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic",
+      "×1.5 [IMG:/images/thumb/1/1f/Civic_agrarian_idyll.png/24px-Civic_agrarian_idyll.png] Agrarian Idyll or [IMG:/images/thumb/5/5e/Civic_anglers.png/24px-Civic_anglers.png] Anglers",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Eco Simulation",
+    "target": "Food Processing"
+  },
+  {
+    "name": "Gene Crops",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/b/b1/Tech_gene_crops.png]",
+    "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
+    "tier": "2",
+    "cost": "4000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Nutritional Plenitude",
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Expanded Breeding Program"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4f/Tech_eco_simulation.png/24px-Tech_eco_simulation.png] Eco Simulation"
+    ],
+    "draw weight": [
+      "Base: 85",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Eco Simulation",
+    "target": "Gene Crops"
+  },
+  {
+    "name": "Morphogenetic Field Mastery",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/b/b1/Tech_morphogenetic_field_mastery.png]",
+    "description": "From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.",
+    "tier": "4",
+    "cost": "16000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/1/1c/Army_xenomorph.png/24px-Army_xenomorph.png] Xenomorph Army"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/41/Tech_epigenetic_triggers.png/24px-Tech_epigenetic_triggers.png] Epigenetic Triggers",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species"
+    ],
+    "draw weight": [
+      "Base: 22.5",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.5 [IMG:/images/thumb/8/8b/Fanatic_militarist.png/24px-Fanatic_militarist.png] Fanatic Militarist",
+      "×1.25 [IMG:/images/thumb/4/44/Militarist.png/24px-Militarist.png] Militarist",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 council scientist has [IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/5/5d/Leader_trait_maniacal.png/24px-Leader_trait_maniacal.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Maniacal trait",
+      "×1.25 council scientist has [IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/4/4d/Leader_trait_lightbulb_on.png/24px-Leader_trait_lightbulb_on.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Spark of Genius trait",
+      "×0.2 no council scientist with either:\n[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait\n[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait",
+      "[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait",
+      "[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Epigenetic Triggers",
+    "target": "Morphogenetic Field Mastery"
+  },
+  {
+    "name": "Advanced Food Processing",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/5/53/Tech_food_processing_2.png]",
+    "description": "New cryopreservation and protein resequencing methods will make food processing much more efficient.",
+    "tier": "3",
+    "cost": "10000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/9/96/Building_food_processing_center.png/24px-Building_food_processing_center.png] Food Processing Centers",
+      "[IMG:/images/thumb/1/11/Orbitalring_food_hub.png/24px-Orbitalring_food_hub.png] Climate Optimization Stations"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/9/9c/Tech_food_processing_1.png/24px-Tech_food_processing_1.png] Food Processing",
+      "[IMG:/images/thumb/6/66/Volatile_motes.png/24px-Volatile_motes.png] Access to Volatile Motes through tech or galactic market"
+    ],
+    "draw weight": [
+      "Base: 130",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Food Processing",
+    "target": "Advanced Food Processing"
+  },
+  {
+    "name": "Nano-Vitality Crops",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/1/14/Tech_nano_vitality_crops.png]",
+    "description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
+    "tier": "3",
+    "cost": "8000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/b/b1/Tech_gene_crops.png/24px-Tech_gene_crops.png] Gene Crops"
+    ],
+    "draw weight": [
+      "Base: 65",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Gene Crops",
+    "target": "Nano-Vitality Crops"
+  },
+  {
+    "name": "Transgenic Crops",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/5/5c/Tech_repeatable_improved_tile_food_output.png]",
+    "description": "Transgenic crops offer the nutritional elements of several standard food crops in one convenient package.",
+    "tier": "5",
+    "cost": "50000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/d0/Pop_resource_food_mult.png/24px-Pop_resource_food_mult.png] +5% Food from Jobs"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/b/b1/Tech_gene_crops.png/24px-Tech_gene_crops.png] Gene Crops"
+    ],
+    "draw weight": [
+      "Base: 12.5",
+      "×0.01 another repeatable tech was drawn"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Gene Crops",
+    "target": "Transgenic Crops"
+  },
+  {
+    "name": "Gene Seed Purification",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/c/c4/Tech_gene_seed_purification.png]",
+    "description": "Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.",
+    "tier": "4",
+    "cost": "16000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/7/7b/Army_gene_warrior.png/24px-Army_gene_warrior.png] Gene Warrior Army"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4c/Tech_gene_tailoring.png/24px-Tech_gene_tailoring.png] Gene Tailoring",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/d/d2/Utopia.png/24px-Utopia.png] Utopia DLC\n[IMG:/images/thumb/3/3b/Ap_evolutionary_mastery.png/24px-Ap_evolutionary_mastery.png] Biomorphosis ascension perk",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/d/d2/Utopia.png/24px-Utopia.png] Utopia DLC",
+      "[IMG:/images/thumb/3/3b/Ap_evolutionary_mastery.png/24px-Ap_evolutionary_mastery.png] Biomorphosis ascension perk"
+    ],
+    "draw weight": [
+      "Base: 45",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.5 [IMG:/images/thumb/8/8b/Fanatic_militarist.png/24px-Fanatic_militarist.png] Fanatic Militarist",
+      "×1.25 [IMG:/images/thumb/4/44/Militarist.png/24px-Militarist.png] Militarist",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 council scientist with [IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/4/4d/Leader_trait_lightbulb_on.png/24px-Leader_trait_lightbulb_on.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Spark of Genius trait",
+      "×0.1 no council scientist with either:\n[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait\n[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait",
+      "[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait",
+      "[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Gene Tailoring",
+    "target": "Gene Seed Purification"
+  },
+  {
+    "name": "Glandular Acclimation",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/5/52/Tech_glandular_acclimation.png]",
+    "description": "Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs.",
+    "tier": "3",
+    "cost": "12000",
+    "effectsUnlocks": [
+      "[IMG:/images/4/47/Feature.png] Habitability Modification"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4c/Tech_gene_tailoring.png/24px-Tech_gene_tailoring.png] Gene Tailoring",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 75",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 [IMG:/images/thumb/3/3c/Origins_necrophage.png/24px-Origins_necrophage.png] Necrophage origin"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Gene Tailoring",
+    "target": "Glandular Acclimation"
+  },
+  {
+    "name": "Targeted Gene Expressions",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/3/3c/Tech_gene_expressions.png]",
+    "description": "Stricter control of RNA and protein production on the cellular level.",
+    "tier": "3",
+    "cost": "12000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/0/09/Trait_auto_mod_biological.png/24px-Trait_auto_mod_biological.png] Unlocks the Vocational Genomics trait"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/4c/Tech_gene_tailoring.png/24px-Tech_gene_tailoring.png] Gene Tailoring",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 50",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Gene Tailoring",
+    "target": "Targeted Gene Expressions"
+  },
+  {
+    "name": "Cyto-Revitalization",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/75/Tech_frontier_health.png]",
+    "description": "As our empire grows, so does our understanding of our own Biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.",
+    "tier": "2",
+    "cost": "6000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/ce/Building_hospital.png/24px-Building_hospital.png] Cyto-Revitalization Centers"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/75/Tech_frontier_health.png/24px-Tech_frontier_health.png] Genetic Healthcare",
+      "[IMG:/images/thumb/1/1d/Tech_colonial_centralization.png/24px-Tech_colonial_centralization.png] Colonial Centralization",
+      "[IMG:/images/thumb/6/64/Exotic_gases.png/24px-Exotic_gases.png] Access to Exotic Gases through tech or galactic market"
+    ],
+    "draw weight": [
+      "Base: 70",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 adopted the [IMG:/images/thumb/f/ff/Tradition_icon_harmony.png/24px-Tradition_icon_harmony.png] Harmony tradition tree"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/2/24/Trait_individual.png/26px-Trait_individual.png]\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png]"
+    ],
+    "dlc": [],
+    "source": "Genetic Healthcare",
+    "target": "Cyto-Revitalization"
+  },
+  {
+    "name": "Cloning",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/b/b8/Tech_cloning.png]",
+    "description": "Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/bf/Building_clone_vats.png/24px-Building_clone_vats.png] Clone Vats"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 112.5",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Cloning"
+  },
+  {
+    "name": "Epigenetic Triggers",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/41/Tech_epigenetic_triggers.png]",
+    "description": "Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/4/47/Feature.png] Uplifting",
+      "[IMG:/images/4/47/Feature.png] Genetic modification can remove pre-sapient traits"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/c/c8/Civic_machine_guided_sapience.png/24px-Civic_machine_guided_sapience.png] Genesis Architects",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Encountered a pre-sapient species",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/ab/Civic_fanatic_purifiers.png/24px-Civic_fanatic_purifiers.png] Fanatic Purifiers"
+    ],
+    "draw weight": [
+      "Base: 75",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/a/a8/Fanatic_xenophile.png/24px-Fanatic_xenophile.png] Fanatic Xenophile",
+      "×1.25 [IMG:/images/thumb/b/b0/Xenophile.png/24px-Xenophile.png] Xenophile",
+      "×0.75 [IMG:/images/thumb/e/ed/Xenophobe.png/24px-Xenophobe.png] Xenophobe",
+      "×0.5 [IMG:/images/thumb/8/8b/Fanatic_xenophobe.png/24px-Fanatic_xenophobe.png] Fanatic Xenophobe"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Epigenetic Triggers"
+  },
+  {
+    "name": "Gene Tailoring",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4c/Tech_gene_tailoring.png]",
+    "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
+    "tier": "3",
+    "cost": "8000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/7/78/Menu_icon_species.png/24px-Menu_icon_species.png] +2 Gene modification points",
+      "[IMG:/images/4/47/Feature.png] Genetic Modification"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 130",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 [IMG:/images/thumb/3/3c/Origins_necrophage.png/24px-Origins_necrophage.png] Necrophage origin",
+      "×1.25 [IMG:/images/thumb/b/b0/Xenophile.png/24px-Xenophile.png][IMG:/images/thumb/a/a8/Fanatic_xenophile.png/24px-Fanatic_xenophile.png] Xenophile"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/e/eb/Civic_natural_design.png/24px-Civic_natural_design.png][IMG:/images/thumb/1/13/Civic_hive_natural_design.png/24px-Civic_hive_natural_design.png]"
+    ],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Gene Tailoring"
+  },
+  {
+    "name": "Genetic Healthcare",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/75/Tech_frontier_health.png]",
+    "description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
+    "tier": "1",
+    "cost": "2500",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/b/b0/Building_medical_2.png/24px-Building_medical_2.png] Gene Clinics"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/e/e4/Tech_colonization_1.png/24px-Tech_colonization_1.png] New Worlds Protocol",
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping"
+    ],
+    "draw weight": [
+      "Base: 190",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/f/f0/Origins_payback.png/24px-Origins_payback.png] Payback origin and researching Gene Clinics during Out of Warranty event",
+      "×1.25 adopted the [IMG:/images/thumb/f/ff/Tradition_icon_harmony.png/24px-Tradition_icon_harmony.png] Harmony tradition tree"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/2/24/Trait_individual.png/26px-Trait_individual.png]\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png]"
+    ],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Genetic Healthcare"
+  },
+  {
+    "name": "Subdermal Stimulation",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/71/Tech_subdermal_stimulation.png]",
+    "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/4/47/Feature.png] Chemical Bliss living standards"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/d/d3/Gestalt_consciousness.png/24px-Gestalt_consciousness.png] Gestalt Consciousness"
+    ],
+    "draw weight": [
+      "Base: 37.5",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.25 [IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/6/6a/Egalitarian.png/24px-Egalitarian.png][IMG:/images/thumb/a/aa/Fanatic_egalitarian.png/24px-Fanatic_egalitarian.png] Egalitarian"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Subdermal Stimulation"
+  },
+  {
+    "name": "Vitality Boosters",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/79/Tech_vitality_boosters.png]",
+    "description": "Where the body fails, science intervenes.",
+    "tier": "2",
+    "cost": "5000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/3/3e/Mod_leader_age.png/24px-Mod_leader_age.png] +10 Years Leader Lifespan"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/0/03/Tech_genome_mapping.png/24px-Tech_genome_mapping.png] Genome Mapping",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Either:\n[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator"
+    ],
+    "draw weight": [
+      "Base: 112.5",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.25 [IMG:/images/thumb/4/43/Auth_hive_mind.png/24px-Auth_hive_mind.png] Hive Mind",
+      "×1.25 adopted the [IMG:/images/thumb/d/d5/Tradition_icon_supremacy.png/24px-Tradition_icon_supremacy.png] Supremacy tradition tree"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Genome Mapping",
+    "target": "Vitality Boosters"
+  },
+  {
+    "name": "Bio-Reactor",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/a/a7/Tech_bio_reactor.png]",
+    "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/6/62/Building_bio_reactor.png/24px-Building_bio_reactor.png] Bio-Reactor"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/c/cb/Tech_industrial_farming.png/24px-Tech_industrial_farming.png] Industrial Agriculture"
+    ],
+    "draw weight": [
+      "Base: 100",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×20 If one of the following is true:\n[IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid founder species\n[IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png][IMG:/images/thumb/2/2e/Trait_mechanical.png/24px-Trait_mechanical.png] Mechanical founder species\n[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic",
+      "[IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid founder species",
+      "[IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png][IMG:/images/thumb/2/2e/Trait_mechanical.png/24px-Trait_mechanical.png] Mechanical founder species",
+      "[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png][IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png][IMG:/images/thumb/f/f2/Civic_hive_catalytic_processing_dark.png/24px-Civic_hive_catalytic_processing_dark.png][IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png]  Catalytic Processing[IMG:/images/thumb/6/62/Civic_catalytic_processing.png/24px-Civic_catalytic_processing.png] Catalytic Processing\n[IMG:/images/thumb/a/ac/Civic_corporate_catalytic_processing.png/24px-Civic_corporate_catalytic_processing.png] Catalytic Recyclers\n[IMG:/images/thumb/0/04/Civic_hive_catalytic_processing.png/24px-Civic_hive_catalytic_processing.png] Organic Reprocessing\n[IMG:/images/thumb/9/94/Civic_machine_catalytic_processing.png/24px-Civic_machine_catalytic_processing.png] Organic Retrofitting\n\n\n\n civic"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Industrial Agriculture",
+    "target": "Bio-Reactor"
+  },
+  {
+    "name": "Eco Simulation",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/4f/Tech_eco_simulation.png]",
+    "description": "Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.",
+    "tier": "1",
+    "cost": "2000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +20% Food from [IMG:/images/thumb/a/a0/Job_farmer.png/24px-Job_farmer.png] Farmers",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from starbase constructions"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/c/cb/Tech_industrial_farming.png/24px-Tech_industrial_farming.png] Industrial Agriculture"
+    ],
+    "draw weight": [
+      "Base: 100",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Industrial Agriculture",
+    "target": "Eco Simulation"
+  },
+  {
+    "name": "Bioregeneration Institute",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/9/99/Tech_fe_clinic_2.png]",
+    "description": "The Bioregeneration Institute, at the pinnacle of medical technology, pioneers groundbreaking bio-regenerative therapies, continuously redefining the boundaries of life extension.",
+    "tier": "5",
+    "cost": "50000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/8/8c/Building_fe_clinic_2.png/24px-Building_fe_clinic_2.png] Bioregeneration Institute"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/6/6d/Ap_cosmogenesis.png/22px-Ap_cosmogenesis.png] Cosmogenesis level 4",
+      "[IMG:/images/thumb/2/25/Tech_fe_clinic_1.png/24px-Tech_fe_clinic_1.png] Molecular-Revitalization Institute"
+    ],
+    "draw weight": [
+      "Base: 20"
+    ],
+    "empire": [
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png]"
+    ],
+    "dlc": [
+      "[IMG:/images/thumb/1/13/Apocalypse.png/26px-Apocalypse.png]",
+      "[IMG:/images/thumb/c/c3/The_Machine_Age.png/26px-The_Machine_Age.png]"
+    ],
+    "source": "Molecular-Revitalization Institute",
+    "target": "Bioregeneration Institute"
+  },
+  {
+    "name": "Nutrient Replication",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/0/02/Tech_nutrient_replication.png]",
+    "description": "The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.",
+    "tier": "4",
+    "cost": "24000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/d0/Pop_resource_food_mult.png/24px-Pop_resource_food_mult.png] +15% Food from Jobs",
+      "[IMG:/images/thumb/c/c6/Food.png/24px-Food.png] +10% Food from Starbase Constructions"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/1/14/Tech_nano_vitality_crops.png/24px-Tech_nano_vitality_crops.png] Nano-Vitality Crops",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority"
+    ],
+    "draw weight": [
+      "Base: 35",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×1.5 [IMG:/images/thumb/2/2c/Fanatic_pacifist.png/24px-Fanatic_pacifist.png] Fanatic Pacifist",
+      "×1.25 [IMG:/images/thumb/4/4a/Pacifist.png/24px-Pacifist.png] Pacifist",
+      "×0.5 [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species",
+      "×0.5 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid or [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile founder species",
+      "×0.01 [IMG:/images/thumb/9/9f/Trait_lithoid.png/24px-Trait_lithoid.png] Lithoid, [IMG:/images/thumb/6/62/Trait_infernal.png/24px-Trait_infernal.png] Thermophile or [IMG:/images/thumb/a/a8/Trait_machine_unit.png/24px-Trait_machine_unit.png] Machine founder species unless either:\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species\n[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor\n[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator\n[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Non-Lithoid secondary species",
+      "[IMG:/images/thumb/4/4f/Civic_machine_servitor.png/24px-Civic_machine_servitor.png] Rogue Servitor",
+      "[IMG:/images/thumb/0/06/Civic_machine_assimilator.png/24px-Civic_machine_assimilator.png] Driven Assimilator",
+      "[IMG:/images/thumb/7/77/Yes.png/24px-Yes.png] Has at least one Agriculture District",
+      "×0.25 no council scientist with either:\n[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait\n[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait",
+      "[IMG:/images/thumb/a/af/Leader_trait_bg_society.png/24px-Leader_trait_bg_society.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/7/78/Leader_trait_expertise_biology.png/24px-Leader_trait_expertise_biology.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Expertise: Biology trait",
+      "[IMG:/images/thumb/a/a3/Leader_trait_bg_basic.png/24px-Leader_trait_bg_basic.png][IMG:/images/thumb/c/c8/Leader_trait_overlay_veteran.png/24px-Leader_trait_overlay_veteran.png][IMG:/images/thumb/b/be/Leader_trait_curator.png/24px-Leader_trait_curator.png][IMG:/images/thumb/c/cc/Leader_trait_overlay_councilor.png/24px-Leader_trait_overlay_councilor.png][IMG:/images/thumb/e/e4/Leader_trait_overlay_transparent.png/24px-Leader_trait_overlay_transparent.png] Curator trait"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Nano-Vitality Crops",
+    "target": "Nutrient Replication"
+  },
+  {
+    "name": "Biostructural Synthesis",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/8/85/Tech_society_3.png]",
+    "description": "Life, in all its staggering variety, is composed of repeating patterns and modular structures. By decoding and replicating these at every scale, we now wield a holistic blueprint of biology. There is little left in nature we do not understand, and less still we cannot recreate.",
+    "tier": "3",
+    "cost": "12000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/dc/Building_biolab_3.png/24px-Building_biolab_3.png] Life Systems Complex"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/6/64/Tech_society_2.png/24px-Tech_society_2.png] Neural Weaving"
+    ],
+    "draw weight": [
+      "Base: 50",
+      "×16 40 years have passed",
+      "×8 35 years have passed",
+      "×4 30 years have passed",
+      "×2 25 years have passed",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Neural Weaving",
+    "target": "Biostructural Synthesis"
+  },
+  {
+    "name": "Nourishment Center",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/f/f3/Tech_fe_nourishment_2.png]",
+    "description": "Every conceivable flavor can be replicated within these walls.",
+    "tier": "5",
+    "cost": "50000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/d/d2/Building_nourishment_center.png/24px-Building_nourishment_center.png] Nourishment Center"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/6/6d/Ap_cosmogenesis.png/22px-Ap_cosmogenesis.png] Cosmogenesis level 2",
+      "[IMG:/images/thumb/2/2f/Tech_fe_nourishment_1.png/24px-Tech_fe_nourishment_1.png] Nourishment Complex"
+    ],
+    "draw weight": [
+      "Base: 20"
+    ],
+    "empire": [],
+    "dlc": [
+      "[IMG:/images/thumb/1/13/Apocalypse.png/26px-Apocalypse.png]",
+      "[IMG:/images/thumb/c/c3/The_Machine_Age.png/26px-The_Machine_Age.png]"
+    ],
+    "source": "Nourishment Complex",
+    "target": "Nourishment Center"
+  },
+  {
+    "name": "Capacity Boosters",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/74/Tech_capacity_boosters.png]",
+    "description": "We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.",
+    "tier": "4",
+    "cost": "24000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/a/af/Menu_icon_policies.png/24px-Menu_icon_policies.png] Capacity Boosters Leader Enhancement policy"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/4/44/Tech_selected_lineages.png/24px-Tech_selected_lineages.png] Selected Lineages",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/6/6a/Egalitarian.png/24px-Egalitarian.png][IMG:/images/thumb/a/aa/Fanatic_egalitarian.png/24px-Fanatic_egalitarian.png] Egalitarian"
+    ],
+    "draw weight": [
+      "Base: 17.5",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/b/bf/Authoritarian.png/24px-Authoritarian.png][IMG:/images/thumb/5/59/Fanatic_authoritarian.png/24px-Fanatic_authoritarian.png] Authoritarian",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Selected Lineages",
+    "target": "Capacity Boosters"
+  },
+  {
+    "name": "Tracking Implants",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/a/a2/Tech_tracking_implants.png]",
+    "description": "Mandatory subdermal implants record movement and actions, greatly enhancing our empire's internal security. Loyal citizens have nothing to hide from the government.",
+    "tier": "4",
+    "cost": "20000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/f/f9/Menu_icon_edicts.png/24px-Menu_icon_edicts.png] Tracking Implants"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/71/Tech_subdermal_stimulation.png/24px-Tech_subdermal_stimulation.png] Subdermal Stimulation",
+      "[IMG:/images/thumb/f/f2/Tech_galactic_bureaucracy.png/24px-Tech_galactic_bureaucracy.png] Galactic Bureaucracy"
+    ],
+    "draw weight": [
+      "Base: 20",
+      "×2 [IMG:/images/thumb/b/bf/Authoritarian.png/24px-Authoritarian.png][IMG:/images/thumb/5/59/Fanatic_authoritarian.png/24px-Fanatic_authoritarian.png] Authoritarian",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Subdermal Stimulation",
+    "target": "Tracking Implants"
+  },
+  {
+    "name": "Cell Revitalization",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/7/7b/Tech_repeatable_improved_leader_life_span.png]",
+    "description": "Regimens of periodic cell revitalization treatments keep the leader class spry and active beyond traditionally expected lifespans.",
+    "tier": "5",
+    "cost": "50000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/3/3e/Mod_leader_age.png/24px-Mod_leader_age.png] +5 Years Leader Lifespan"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/79/Tech_vitality_boosters.png/24px-Tech_vitality_boosters.png] Vitality Boosters"
+    ],
+    "draw weight": [
+      "Base: 12.5",
+      "×0.01 another repeatable tech was drawn"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Vitality Boosters",
+    "target": "Cell Revitalization"
+  },
+  {
+    "name": "Selected Lineages",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/4/44/Tech_selected_lineages.png]",
+    "description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.",
+    "tier": "3",
+    "cost": "10000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/a/af/Menu_icon_policies.png/24px-Menu_icon_policies.png] Selected Lineages Leader Enhancement policy"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/79/Tech_vitality_boosters.png/24px-Tech_vitality_boosters.png] Vitality Boosters",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/af/Auth_machine_intelligence.png/24px-Auth_machine_intelligence.png] Machine Intelligence authority",
+      "[IMG:/images/thumb/0/04/No.png/24px-No.png][IMG:/images/thumb/a/aa/Fanatic_egalitarian.png/24px-Fanatic_egalitarian.png] Fanatic Egalitarian"
+    ],
+    "draw weight": [
+      "Base: 30",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample",
+      "×2 [IMG:/images/thumb/b/bf/Authoritarian.png/24px-Authoritarian.png][IMG:/images/thumb/5/59/Fanatic_authoritarian.png/24px-Fanatic_authoritarian.png] Authoritarian",
+      "×2 [IMG:/images/thumb/c/ca/Federation_perk_rare_tech_boost.png/24px-Federation_perk_rare_tech_boost.png] Scientific Inspiration federation perk and another member has the technology",
+      "×1.5 [IMG:/images/thumb/5/53/Ap_technological_ascendancy.png/22px-Ap_technological_ascendancy.png] Technological Ascendancy perk",
+      "×1.1 [IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png][IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png]  Dimensional Worship[IMG:/images/thumb/0/0e/Civic_dimensional_worship.png/24px-Civic_dimensional_worship.png] Dimensional Worship\n[IMG:/images/thumb/a/a9/Civic_corporate_dimensional_worship.png/24px-Civic_corporate_dimensional_worship.png] Dimensional Enterprise\n\n\n\n civic",
+      "×0.25 [IMG:/images/thumb/6/6a/Egalitarian.png/24px-Egalitarian.png] Egalitarian"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Vitality Boosters",
+    "target": "Selected Lineages"
+  },
+  {
+    "name": "Neural Weaving",
+    "classify": "society",
+    "technology": "Biology",
+    "icon": "[IMG:/images/6/64/Tech_society_2.png]",
+    "description": "Through recursive axonal scaffolding and synaptic reticulation, we have developed methods for reorganizing the electrochemical topology of conscious matter. Neurons do not merely transmit - they entwine, organize, and remember. Now, they do so according to our design.",
+    "tier": "2",
+    "cost": "6000",
+    "effectsUnlocks": [
+      "[IMG:/images/thumb/a/a8/Building_biolab_2.png/24px-Building_biolab_2.png] Neurogenetics Institute",
+      "[IMG:/images/thumb/5/57/Job_biologist.png/24px-Job_biologist.png] Biological Research Support"
+    ],
+    "prerequisites": [
+      "[IMG:/images/thumb/7/7b/Tech_society_1.png/24px-Tech_society_1.png] Xenobiology",
+      "[IMG:/images/thumb/6/64/Exotic_gases.png/24px-Exotic_gases.png] Access to Exotic Gases through tech or galactic market"
+    ],
+    "draw weight": [
+      "Base: 70",
+      "×16 20 years have passed",
+      "×8 15 years have passed",
+      "×4 10 years have passed",
+      "×2 5 years have passed",
+      "×2 [IMG:/images/thumb/2/2b/R_pox_sample.png/24px-R_pox_sample.png] Javorian Pox Sample"
+    ],
+    "empire": [],
+    "dlc": [],
+    "source": "Xenobiology",
+    "target": "Neural Weaving"
+  }
+]

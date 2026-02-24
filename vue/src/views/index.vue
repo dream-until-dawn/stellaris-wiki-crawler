@@ -1,19 +1,29 @@
 <template>
-    <GraphChart :nodes="nodes" :links="links" />
+    <template v-if="links.length > 0">
+        <GraphChart :nodes="nodes" :links="links" :graphic="graphic" />
+    </template>
 </template>
 <script setup lang='ts'>
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue'
 import GraphChart, { type GraphNode, type GraphLink } from './component/GraphChart.vue'
+import { GraphGridLayout } from '@/utils/GraphGridLayout'
 
-const nodes: GraphNode[] = [
-    { id: '1', name: '节点A' },
-    { id: '2', name: '节点B' },
-    { id: '3', name: '节点C' }
-]
+const links = ref<GraphLink[]>([])
+const nodes = ref<GraphNode[]>([])
+const graphic = ref<any[]>([])
 
-const links: GraphLink[] = [
-    { source: '1', target: '2' },
-    { source: '2', target: '3' }
-]
+
+onMounted(async () => {
+    const res = await fetch('/test_links.json')
+    const raw = await res.json()
+
+    const layout = new GraphGridLayout(raw)
+    const result = layout.build()
+
+    nodes.value = result.nodes
+    links.value = result.links
+    graphic.value = result.graphic
+})
+
 </script>
 <style lang='scss' scoped></style>

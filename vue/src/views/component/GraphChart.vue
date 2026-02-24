@@ -31,6 +31,7 @@ export interface GraphLink {
 const props = defineProps<{
     nodes: GraphNode[]
     links: GraphLink[]
+    graphic?: any[]
 }>()
 
 const chartRef = ref<HTMLDivElement | null>(null)
@@ -41,13 +42,14 @@ let chartInstance: ECharts | null = null
  */
 const getOption = (): EChartsOption => {
     return {
+        graphic: [...(props.graphic ?? [])],
         tooltip: {
             trigger: 'item'
         },
         series: [
             {
                 type: 'graph',
-                layout: 'force', // 力导向布局
+                layout: 'none',
                 roam: true, // 支持缩放拖拽
                 data: props.nodes,
                 links: props.links,
@@ -110,6 +112,6 @@ onBeforeUnmount(() => {
 <style scoped>
 .graph-chart {
     width: 100%;
-    height: 500px;
+    height: 100dvh;
 }
 </style>
