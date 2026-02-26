@@ -1,12 +1,13 @@
 <template>
     <template v-if="links.length > 0">
-        <GraphChart :nodes="nodes" :links="links" :graphic="graphic" />
+        <SankeyChart :nodes="nodes" :links="links" :graphic="graphic" />
     </template>
 </template>
 <script setup lang='ts'>
 import { onMounted, ref } from 'vue'
-import GraphChart, { type GraphNode, type GraphLink } from './component/GraphChart.vue'
+import SankeyChart from './component/SankeyChart.vue'
 import { GraphGridLayout } from '@/utils/GraphGridLayout'
+import type { GraphNode, GraphLink } from '@/utils/GraphGridLayout'
 
 const links = ref<GraphLink[]>([])
 const nodes = ref<GraphNode[]>([])

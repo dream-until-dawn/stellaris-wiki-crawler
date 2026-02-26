@@ -6,24 +6,7 @@
 import { ref, onMounted, onBeforeUnmount, watch } from 'vue'
 import * as echarts from 'echarts'
 import type { ECharts, EChartsOption } from 'echarts'
-
-/**
- * 节点类型
- */
-export interface GraphNode {
-    id: string
-    name: string
-    value?: number
-    category?: number
-}
-
-/**
- * 边类型（无向图）
- */
-export interface GraphLink {
-    source: string
-    target: string
-}
+import type { GraphNode, GraphLink } from '@/utils/GraphGridLayout'
 
 /**
  * 组件 Props
@@ -48,21 +31,16 @@ const getOption = (): EChartsOption => {
         },
         series: [
             {
-                type: 'graph',
-                layout: 'none',
+                type: 'sankey',
                 roam: true, // 支持缩放拖拽
                 data: props.nodes,
                 links: props.links,
-                label: {
-                    show: true,
-                    position: 'right'
-                },
-                force: {
-                    repulsion: 200,
-                    edgeLength: 120
+                emphasis: {
+                    focus: 'adjacency'
                 },
                 lineStyle: {
-                    width: 2
+                    color: 'gradient',
+                    curveness: 0.5
                 }
             }
         ]

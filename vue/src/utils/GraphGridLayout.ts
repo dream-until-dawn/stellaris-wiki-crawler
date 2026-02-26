@@ -1,3 +1,5 @@
+import { LinkedGroup, type GraphNode as GraphNodeT } from './LinkedGroup'
+
 type RawItem = {
     name: string
     classify: string
@@ -7,121 +9,77 @@ type RawItem = {
     target: string
 }
 
-type GraphNode = {
-    id: string
+export type GraphNode = {
     name: string
-    x: number
-    y: number
+    value: number
     raw: RawItem
+    depth?: number
 }
 
-type GraphLink = {
+export type GraphLink = {
     source: string
     target: string
+    value: number
 }
 
 type LayoutOptions = {
     classifySpacing?: number
+    technologySpacing?: number
     tierSpacing?: number
-    techSpacing?: number
-    nodeSpacing?: number
+    nodeXSpacing?: number
+    nodeYSpacing?: number
 }
 
 export class GraphGridLayout {
     private data: RawItem[]
     private opt: Required<LayoutOptions>
+    private tierTree: Set<GraphNodeT>[]
 
     constructor(data: RawItem[], options?: LayoutOptions) {
         this.data = data
         this.opt = {
-            classifySpacing: 500,
-            tierSpacing: 220,
-            techSpacing: 160,
-            nodeSpacing: 70,
+            classifySpacing: 500, // 分类间距
+            technologySpacing: 160, // 子分类间距
+            tierSpacing: 220, // 层级间距
+            nodeXSpacing: 200, // 节点间距
+            nodeYSpacing: 70, // 节点间距
             ...options
         }
+        this.tierTree = []
     }
+
 
     public build() {
         const nodes: GraphNode[] = []
         const links: GraphLink[] = []
 
-        // 1️⃣ 建立节点Map
+        // 数据预处理
         const nodeMap = new Map<string, RawItem>()
+        const linksMap = new Map<string, boolean>()
+        const lg = new LinkedGroup();
         this.data.forEach(d => {
+            const linkKey = `${d.source}__${d.target}`
             nodeMap.set(d.name, d)
-            links.push({ source: d.source, target: d.target })
+            if (!linksMap.has(linkKey)) {
+                linksMap.set(linkKey, true) // 去重
+                links.push({ source: d.source, target: d.target, value: 1, })
+                lg.add({ source: d.source, target: d.target })
+            }
         })
-
-        // 2️⃣ 分层结构：classify -> technology -> tier
-        const structure = new Map<
-            string,
-            Map<string, Map<number, RawItem[]>>
-        >()
-
         nodeMap.forEach(node => {
-            const tier = Number(node.tier)
-
-            if (!structure.has(node.classify))
-                structure.set(node.classify, new Map())
-
-            const techMap = structure.get(node.classify)!
-
-            if (!techMap.has(node.technology))
-                techMap.set(node.technology, new Map())
-
-            const tierMap = techMap.get(node.technology)!
-
-            if (!tierMap.has(tier))
-                tierMap.set(tier, [])
-
-            tierMap.get(tier)!.push(node)
-        })
-
-        // 3️⃣ 计算坐标
-        let classifyOffsetX = 0
-
-        structure.forEach((techMap, classify) => {
-            let techIndex = 0
-
-            techMap.forEach((tierMap, technology) => {
-
-                const baseY = techIndex * this.opt.techSpacing
-
-                tierMap.forEach((nodeList, tier) => {
-
-                    const baseX =
-                        classifyOffsetX +
-                        tier * this.opt.tierSpacing
-
-                    // 居中对齐
-                    const totalHeight =
-                        (nodeList.length - 1) * this.opt.nodeSpacing
-
-                    const startY =
-                        baseY - totalHeight / 2
-
-                    nodeList.forEach((node, index) => {
-                        nodes.push({
-                            id: node.name,
-                            name: node.name,
-                            x: baseX,
-                            y: startY + index * this.opt.nodeSpacing,
-                            raw: node
-                        })
-                    })
-                })
-
-                techIndex++
+            nodes.push({
+                name: node.name,
+                value: 1,
+                raw: node
             })
-
-            classifyOffsetX += this.opt.classifySpacing
         })
+        console.log('关系链表组', lg.chains);
+        console.log('节点映射', nodeMap);
 
         return {
             nodes,
             links,
-            graphic: this.buildBackground(structure)
+            graphic: []
         }
     }
 
@@ -134,7 +92,7 @@ export class GraphGridLayout {
 
         structure.forEach((techMap, classify) => {
             const height =
-                techMap.size * this.opt.techSpacing
+                techMap.size * this.opt.technologySpacing
 
             graphics.push({
                 type: 'rect',
