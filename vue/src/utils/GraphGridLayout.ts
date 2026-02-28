@@ -12,8 +12,9 @@ type RawItem = {
 export type GraphNode = {
     name: string
     value: number
-    raw: RawItem
     depth?: number
+    raw?: RawItem
+    [key: string]: any
 }
 
 export type GraphLink = {
@@ -33,7 +34,6 @@ type LayoutOptions = {
 export class GraphGridLayout {
     private data: RawItem[]
     private opt: Required<LayoutOptions>
-    private tierTree: Set<GraphNodeT>[]
 
     constructor(data: RawItem[], options?: LayoutOptions) {
         this.data = data
@@ -45,13 +45,12 @@ export class GraphGridLayout {
             nodeYSpacing: 70, // 节点间距
             ...options
         }
-        this.tierTree = []
     }
-
 
     public build() {
         const nodes: GraphNode[] = []
         const links: GraphLink[] = []
+        const colorList: string[] = ["#008000", "#d17c00", "#8900ce", "#0078d1", "#d50000", "#800000", "#000080"]
 
         // 数据预处理
         const nodeMap = new Map<string, RawItem>()
@@ -62,23 +61,50 @@ export class GraphGridLayout {
             nodeMap.set(d.name, d)
             if (!linksMap.has(linkKey)) {
                 linksMap.set(linkKey, true) // 去重
-                links.push({ source: d.source, target: d.target, value: 1, })
+                links.push({ source: d.source, target: d.target, value: 1 })
                 lg.add({ source: d.source, target: d.target })
             }
         })
-        nodeMap.forEach(node => {
-            nodes.push({
-                name: node.name,
-                value: 1,
-                raw: node
-            })
-        })
         console.log('关系链表组', lg.chains);
-        console.log('节点映射', nodeMap);
+        // 广度优先遍历
+        const bfs = (s: Set<GraphNodeT>, pT: number, p: number) => {
+            s.forEach(node => {
+                const n = nodeMap.get(node.id)
+                if (!n) return;
+                const t = Number(n.tier)
+                nodes.push({
+                    name: node.id,
+                    value: 1,
+                    depth: (t * 5) + p,
+                    raw: n,
+                    itemStyle: {
+                        color: colorList[t]
+                    },
+                    tooltip: {
+                        formatter: (params: any) => {
+                            return `名称：${n.name}<br>分类：${n.classify}<br>子分类：${n.technology}<br>层级：${n.tier}<br>间级：${p}<br>来源：${n.source}<br>目标：${n.target}`
+                        }
+                    }
+                })
+                if (node.next.size !== 0) bfs(node.next, t, pT === t ? p + 1 : 1)
+            })
+        }
+        lg.chains.forEach(chain => {
+            let curNode = lg.getChainsHeads(chain)
+            nodes.push({
+                name: curNode.id,
+                value: 1,
+                depth: 0,
+                raw: nodeMap.get(curNode.id)!,
+
+            })
+            bfs(curNode.next, Number(nodeMap.get(curNode.id)!.tier), 1)
+        })
+        console.log('节点列表', nodes);
 
         return {
             nodes,
-            links,
+            links: links.filter(l => nodeMap.has(l.source) && nodeMap.has(l.target)),
             graphic: []
         }
     }

@@ -11,8 +11,8 @@ func main() {
 	dao := dao.NewDBDAO()
 
 	// res, err := dao.GetTargetTree("Weaver Organo-Tech Amplifier")
-	res, err := dao.GetGraphByClassify("physics")
-	// res, err := dao.GetGraphByTechnology("Biology")
+	// res, err := dao.GetGraphByClassify("physics")
+	res, err := dao.GetGraphByTechnology("Biology")
 	if err != nil {
 		fmt.Printf("查询出错: %+v", err)
 	}
